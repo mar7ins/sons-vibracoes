@@ -40,16 +40,16 @@ var onca, leao, tigre, errou, erro;
 function preload() {
   //SONS E IMAGENS
   soundFormats('mp3', 'ogg');
-  sLeao = loadSound('sons/1leao.mp3');
-  sIena = loadSound('sons/2-iena.mp3');
-  sElefante = loadSound('sons/3-elefante.mp3');
-  sTarol = loadSound('sons/6-tarol.mp3');
-  sSanfona = loadSound('sons/9-sanfona.mp3');
-  sHarpa = loadSound('sons/8-harpa.mp3');
-  cicloSemFim = loadSound('sons/ciclosemfim.mp3');
+  sLeao = loadSound('1leao.mp3');
+  sIena = loadSound('2-iena.mp3');
+  sElefante = loadSound('3-elefante.mp3');
+  sTarol = loadSound('6-tarol.mp3');
+  sSanfona = loadSound('9-sanfona.mp3');
+  sHarpa = loadSound('8-harpa.mp3');
+  cicloSemFim = loadSound('ciclosemfim.mp3');
   
-  erro = loadSound('sons/erro.mp3');
-  win = loadSound('sons/win.mp3');
+  erro = loadSound('erro.mp3');
+  win = loadSound('win.mp3');
 
   img = loadImage('bg1.png');
   
@@ -59,7 +59,7 @@ function preload() {
 
   for (i = 0; i < 12; i++) {
     bgp1[i] = loadImage("bgp" + i + ".png");
-  }e
+  }
 
 }
 
